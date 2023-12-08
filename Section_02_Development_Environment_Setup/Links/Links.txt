@@ -1,0 +1,8 @@
+Python
+https://www.python.org/downloads/
+
+Visual Studio Code
+https://code.visualstudio.com/download
+
+Sublime Text
+https://www.sublimetext.com
