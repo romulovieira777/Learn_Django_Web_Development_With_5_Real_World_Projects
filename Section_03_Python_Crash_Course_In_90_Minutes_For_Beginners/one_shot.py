@@ -93,7 +93,7 @@ s = 'World!'
 print(r + s)
 print(r + ' ' + s)
 
-# 1. List, 2. Tuple, 3. Sets, 4. Dictionaries
+# 1. List [], 2. Tuple (), 3. Sets {}, 4. Dictionaries {}
 
 list1 = ["Apple", "Banana", "Cherry"]
 print(list1)
@@ -110,3 +110,84 @@ print(list1)
 
 list1.insert(1, "Orange")
 print(list1)
+
+list1.remove("Banana")
+print(list1)
+
+list1.clear()
+print(list1)
+
+list2 = ["Apple", "Banana", "Cherry"]
+list2.sort()
+print(list2)
+
+list3 = [5, 2, 55, 100, 1, 3, 80, 90, 66]
+list3.sort()
+print(list3)
+
+list3.sort(reverse=True)
+print(list3)
+
+list4 = list3.copy()
+print(list4)
+
+list5 = list3 + list4
+print(list5)
+
+tuple1 = ("Apple", "Kiwi", "Banana", "Cherry")
+
+print(tuple1)
+print(len(tuple1))
+print(type(tuple1))
+print(tuple1[2])
+print(tuple1[1])
+
+x = list(tuple1)
+x[1] = "Orange"
+tuple1 = tuple(x)
+print(tuple1)
+
+y = list(tuple1)
+y.insert(1, "Granberry")
+tuple1 = tuple(y)
+
+print(tuple1)
+print(type(tuple1))
+
+y.remove("Granberry")
+tuple1 = tuple(y)
+print(tuple1)
+
+set1 = {"Apple", "kiwi", "Banana", "Cherry"}
+
+print(set1)
+print(len(set1))
+
+set1.add("Orange")
+print(set1)
+print(len(set1))
+
+#set1.remove("banana")
+print(set1)
+print(len(set1))
+
+for x in set1:
+    print(x)
+
+set2 = {1, 2, 3}
+set3 = set.union(set2)
+print(set3)
+
+set1.update(set2)
+print(set1)
+
+dict1 = {
+    "brand": "Ford",
+    "model": "Mustang",
+    "year": 1964
+}
+
+print(dict1)
+print(dict1["brand"])
+print(dict1["model"])
+print(dict1["year"])
