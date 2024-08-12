@@ -191,3 +191,100 @@ print(dict1)
 print(dict1["brand"])
 print(dict1["model"])
 print(dict1["year"])
+print(len(dict1))
+print(type(dict1))
+
+x = dict1.keys()
+print(x)
+
+y = dict1.values()
+print(y)
+
+a = dict1.items()
+print(a)
+
+dict1.update({"year": 2022})
+print(dict1)
+
+dict1["Color"] = "Red"
+print(dict1)
+
+dict1.update({"Color": "Red"})
+print(dict1)
+
+dict1.pop("year")
+print(dict1)
+
+# If Else Statements
+num = 2
+
+if num == 0:
+    print("Number is Zero")
+elif num % 2 == 0:
+    print("Number is Even")
+else:
+    print("Number is Odd")
+
+# Loops in Python
+i = 1
+
+while i < 11:
+    print(i)
+    i += 1
+
+for i in range(11):
+    print(i)
+
+num = 5
+
+for x in range(11):
+    print(num * x)
+
+
+# Functions
+def add(num1, num2):
+    sum = num1 + num2
+    return sum
+
+
+print(add(5, 10))
+
+
+def greet(name):
+    print("Hello, how are you", name)
+
+
+greet("John")
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+# parei no minuto 1:10:00
