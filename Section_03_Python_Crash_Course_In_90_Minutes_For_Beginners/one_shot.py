@@ -256,35 +256,28 @@ def greet(name):
 
 greet("John")
 
+num1 = int(input("Enter first number: "))
+num2 = int(input("Enter second number: "))
+print("The sum is:", add(num1, num2))
+
+x = 5
+try:
+    print(x)
+except Exception as e:
+    print("An exception occurred:", e)
+
+f = open("data.txt", "w")
+f.write("Hello, this is a test file.")
+f.close()
+
+import os
+import datetime
+from time import sleep
 
 
+os.remove('teste.txt')
+time = datetime.time
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-# parei no minuto 1:10:00
+while True:
+    print(time)
+    sleep(1)
